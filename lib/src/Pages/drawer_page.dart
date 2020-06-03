@@ -55,12 +55,12 @@ class DrawerPage extends StatelessWidget {
                         Divider(),
                         ListTile(
                           trailing: Icon(Icons.camera,color: Colors.blue,),
-                          title: Text('Steamer',style: TextStyle(
+                          title: Text('Streamings',style: TextStyle(
                                           fontFamily: "Comic",
                                           fontSize: 25
                                         ),),
                           onTap: (){
-                             Navigator.pushNamed(context,'steam');
+                             Navigator.pushNamed(context,'streamers');
                           },
                         ),
                         Divider(),

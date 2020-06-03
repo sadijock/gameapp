@@ -38,7 +38,7 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Bleach')
+                            title: Text('The Witcher 3 Wild hunt')
                           ),
                 )
               
@@ -65,7 +65,7 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Dios de la guerra 2')
+                            title: Text('God of War')
                           ),
                 )
               
@@ -92,7 +92,7 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Monster')
+                            title: Text('The elder scrolls V Skyrim')
                           ),
                 )
               
@@ -119,7 +119,7 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Oldwest')
+                            title: Text('Red dead redemption 2')
                           ),
                 )
               
@@ -146,7 +146,7 @@ class VideoPage extends StatelessWidget {
                           
                                     },
                                   ), 
-                            title: Text('Coninter strike')
+                            title: Text('Counter strike')
                           ),
                 )
               
