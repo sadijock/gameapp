@@ -8,7 +8,7 @@ class ImagenesDetalle extends StatelessWidget {
     final String args = ModalRoute.of(context).settings.arguments;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Imagenes')
+        title: Text('Imagenes', style: TextStyle(fontFamily: "Comic"),)
         ),
         body: 
         Column(

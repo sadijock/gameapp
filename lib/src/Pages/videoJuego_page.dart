@@ -9,7 +9,8 @@ class VideoJuegoPage extends StatelessWidget {
     return Scaffold(
         drawer: DrawerPage(),
       appBar: AppBar(
-        title: Text('Top Juegos'),
+        
+        title: Text('Top Juegos', style: TextStyle(fontFamily: "Comic"),),
       ),
       body: ListView(
         children: <Widget>[

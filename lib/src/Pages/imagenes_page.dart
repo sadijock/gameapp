@@ -10,7 +10,7 @@ class ImagenPages extends StatelessWidget {
     return Scaffold(
       drawer: DrawerPage(),
       appBar: AppBar( 
-        title: Text('Imagenes')
+        title: Text('Imagenes', style: TextStyle(fontFamily: "Comic"),)
         ),
       body: ListView(
           children: <Widget>[

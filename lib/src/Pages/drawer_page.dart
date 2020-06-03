@@ -11,7 +11,8 @@ class DrawerPage extends StatelessWidget {
                         DrawerHeader(
                           child: Text('Game App',
                                       style: TextStyle(
-                                          fontSize: 35
+                                          fontFamily: "Comic",
+                                          fontSize: 55
                                         ),
                                       ),
                           decoration: BoxDecoration(
@@ -22,7 +23,8 @@ class DrawerPage extends StatelessWidget {
                         ListTile(
                           trailing: Icon(Icons.movie,color: Colors.blue,),
                           title: Text('Videos',style: TextStyle(
-                                          fontSize: 20
+                                          fontFamily: "Comic",
+                                          fontSize: 25
                                         ),),
                           onTap: (){
                                 Navigator.pushNamed(context,'video');
@@ -32,7 +34,8 @@ class DrawerPage extends StatelessWidget {
                         ListTile(
                           trailing: Icon(Icons.image,color: Colors.blue,),
                           title: Text('Imagenes',style: TextStyle(
-                                          fontSize: 20
+                                          fontFamily: "Comic",
+                                          fontSize: 25
                                         ),),
                           onTap: (){
                              Navigator.pushNamed(context,'imagen');
@@ -42,7 +45,8 @@ class DrawerPage extends StatelessWidget {
                         ListTile(
                           trailing: Icon(Icons.games,color: Colors.blue,),
                           title: Text('Top Video Juegos',style: TextStyle(
-                                          fontSize: 20
+                                          fontFamily: "Comic",
+                                          fontSize: 25
                                         ),),
                           onTap: (){
                              Navigator.pushNamed(context,'videoJuego');
@@ -52,7 +56,8 @@ class DrawerPage extends StatelessWidget {
                         ListTile(
                           trailing: Icon(Icons.camera,color: Colors.blue,),
                           title: Text('Steamer',style: TextStyle(
-                                          fontSize: 20
+                                          fontFamily: "Comic",
+                                          fontSize: 25
                                         ),),
                           onTap: (){
                              Navigator.pushNamed(context,'steam');
@@ -62,7 +67,8 @@ class DrawerPage extends StatelessWidget {
                         ListTile(
                           trailing: Icon(Icons.tune,color: Colors.blue,),
                           title: Text('Configuracion',style: TextStyle(
-                                          fontSize: 20
+                                          fontFamily: "Comic",
+                                          fontSize: 25
                                         ),),
                           onTap: (){
                              Navigator.pushNamed(context,'configuracion');
@@ -72,7 +78,8 @@ class DrawerPage extends StatelessWidget {
                         ListTile(
                           trailing: Icon(Icons.assessment,color: Colors.blue,),
                           title: Text('Estadisticas',style: TextStyle(
-                                          fontSize: 20
+                                          fontFamily: "Comic",
+                                          fontSize: 25
                                         ),),
                           onTap: (){
                              Navigator.pushNamed(context,'estadistica');

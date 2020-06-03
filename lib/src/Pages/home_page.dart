@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       drawer: DrawerPage(),
       appBar: AppBar(
-        title: Text('Game App'),
+        title: Text('Game App', style: TextStyle(fontFamily: "Comic"),),
       ),
       body: ListView(
         padding: EdgeInsets.all(10),

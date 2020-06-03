@@ -13,7 +13,7 @@ class VideoPage extends StatelessWidget {
     return Scaffold(
       drawer: DrawerPage(),
       appBar:AppBar(
-        title: Text('Videos'),
+        title: Text('Videos', style: TextStyle(fontFamily: "Comic"),),
       ),
       body: ListView(
         padding:EdgeInsets.all(10),
