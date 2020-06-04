@@ -49,7 +49,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                           padding: EdgeInsets.all(10),
                                           child:Column(
                                                 children: <Widget>[
-                                                    Text('Carátula Cyberpunk 2077',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold ),),
+                                                    Text('Cyberpunk 2077',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold ),),
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 17/9/2020'),
                                                     SizedBox(height: 30,),
@@ -83,7 +83,7 @@ class VideoJuegoDetalle extends StatelessWidget {
                                           padding: EdgeInsets.all(10),
                                           child:Column(
                                                 children: <Widget>[
-                                                    Text('Carátula de Tha last of us parte 2',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold ),),
+                                                    Text('The last of us parte 2',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold ),),
                                                     SizedBox(height: 30,),
                                                     Text('A la venta: 19/6/2020'),
                                                     SizedBox(height: 30,),
